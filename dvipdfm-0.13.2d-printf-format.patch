@@ -1,0 +1,13 @@
+--- dvipdfm/error.h.orig	2001-06-28 21:55:26.000000000 +0200
++++ dvipdfm/error.h	2011-01-31 18:38:03.000000000 +0100
+@@ -34,9 +34,7 @@ extern void error_cleanup();
+ #define NO_ERROR 0
+ 
+ #define ERROR(string) { \
+-  fprintf(stderr, "\n"); \
+-  fprintf (stderr,  string); \
+-  fprintf (stderr, "\n");  \
++  fprintf(stderr, "\n%s\n", string); \
+   error_cleanup(); \
+   exit(1);}
+ typedef int error_t;
