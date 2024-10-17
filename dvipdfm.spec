@@ -7,7 +7,7 @@ Summary:        A DVI to PDF translator
 
 Group:          Publishing
 License:        GPLv2+
-URL:            http://gaspra.kettering.edu/dvipdfm/
+URL:            https://gaspra.kettering.edu/dvipdfm/
 Source0:        http://raffles.nus.edu.sg/mirror/tex-archive/dviware/dvipdfm/dvipdfm-0.13.2d.tar.gz
 
 # The following sources are taken from the TeXLive 2007 modified version of dvipdfm
