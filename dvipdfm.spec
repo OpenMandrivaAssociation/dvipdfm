@@ -32,6 +32,11 @@ Patch3:		dvipdfm-0.13.2d-pdfobj-fix.patch
 Patch4:		dvipdfm-0.13.2d-printf-format.patch
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  zlib-devel kpathsea-devel 
 BuildRequires:  texlive
 
