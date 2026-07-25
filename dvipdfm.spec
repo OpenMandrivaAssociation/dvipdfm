@@ -2,7 +2,7 @@
 
 Name:           dvipdfm
 Version:        0.13.2d
-Release:        %mkrel 1
+Release:        2
 Summary:        A DVI to PDF translator
 
 Group:          Publishing
